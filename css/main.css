@@ -1,0 +1,302 @@
+*{outline:;}
+
+header{
+	background-image: url("../img/background/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	color:white;}
+.oscuro{
+	background-color: rgba(0,0,0,0.6);
+	height:650px;
+	color:white;}
+header .menu{
+    margin-left: 150px;
+}
+header .menu ul li{
+	margin-left:15px;
+	margin-top: 30px;
+    font-size: 16px;}
+header .menu ul a:hover{
+    color:white;
+    text-decoration: none;}
+.text-hero{
+	margin-top: 150px;
+	text-align: center;}
+header .text-hero a{
+	padding: 15px;
+	margin-left: 50px;
+	border-radius: 0;}
+header .text-hero .boton1{
+	background: #222222;
+	color:white;
+    border: 0;}
+/*introduccion*/
+.introduccion{
+	padding:40px 0;
+}
+.contenido{
+	text-align: center;
+	padding-top: 100px;}
+.contenido .contenido-parrafo{
+	padding: 0 40px;
+	margin-bottom: 50px;}
+.contenido .contenido-parrafo span{font-size:250%;
+    color:#1EE1CD;}
+.contenido .contenido-parrafo h2{margin-top: 10px;}
+/*features*/
+.features{
+	background-color:#D8D8D8;
+	padding: 30px 0;
+	text-align: center;}
+.feature-titulo{
+	text-align: center;
+	font-size: 30px;}
+.features img{width: 80%;}
+/*features parrafp*/
+.descripcion-features{margin-bottom: 50px;}
+.descripcion-features .parraf{padding: 20px 30px 0 80px;}
+.descripcion-features .parrafos{padding: 20px 30px 0 65px;}
+.descripcion-features .parraf .imagen{
+	font-size:200%;
+    color:#1EE1CD;
+	position: relative;
+	top: 45px;left: -40px;}
+.descripcion-features .parrafos .imagen{
+	font-size:200%;
+    color:#1EE1CD;
+	position: relative;
+	top: 45px;left: -40px;}
+/*portafolio*/
+.portfolio{
+	background-color:#D8D8D8;
+	text-align: center;
+	padding: 30px 0;}
+.portfolio .menu2  ul a{
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+    display: block;}
+.portfolio .menu2 ul a:hover{background-color: #1EE1CD;}
+/*port-imagenes*/
+.portfolio .row .imagenes{
+	background-color: white;
+	width: 100%;
+	margin: 30px 0;}
+.portfolio .row img{
+	width: 95%;
+	margin: 15px 15px 15px 15px;}
+.portfolio .row .imagenes h5{margin:0;}
+.portfolio .row .imagenes p{padding-bottom:10px;}
+.portfolio .text-center{margin: 0 40px;}
+.text-center a{
+    background-color: black;
+    color:white;
+    border-radius: 0px;
+    padding: 10px;}
+/*imagen marisol*/
+.fondo-choose{
+	background-color:#D8D8D8;
+}
+.city{
+	background: url(../img/background/city.jpg);
+	background-size: cover;
+	height: 400px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.opacity{
+	background-color: rgba(0,0,0,0.4);
+	height:400px;
+	color:white;
+}
+.city p{
+	color: white;
+	text-align: center;
+	margin: 80px 200px 20px 200px;
+}
+.city  a{
+	background-color: transparent;
+	border-radius:0px solid transparent;
+	color: white;
+	margin-top: 50px;
+}
+.parrafo-choose{
+	text-align: center;
+	padding-top: 30px;
+}
+button{
+	margin-left: 50px;
+	background: black;
+	color: white;
+}
+/*---------*/
+.package{
+	text-align: center;
+	background-color: #D8D8D8;
+	padding: 30px 0 50px;}
+.contenido{
+	background-color: white;
+	padding: 20px 20px 0 20px;}
+.contenido .uno{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	font-size: 25px;}
+.contenido .dos{
+	background-color: #D8D8D8;
+	color: black;
+	padding:30px 15px;}
+.contenido .diferente{
+	background-color: #1EE1CD;
+	color: white;
+	padding:15px;
+	font-size: 25px;}
+.lista{padding: 20px;}
+.lista li{list-style: none;}
+.lista hr{
+	width: 250px;
+	border:1px solid #D8D8D8;}
+.lista button{
+	width: 100px;
+	background-color: black;
+	border:0;
+	padding: 5px;
+	margin-left: 0;}
+/*personaje*/
+.personaje{text-align: center;}
+.personaje .figura img{
+	width: 15%;
+	border-radius: 50%;
+	margin-bottom: 30px;}
+.personaje .figura{padding: 50px 150px;}
+/*contact*/
+.contact{
+	background-image: url("../img/background/contactus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color:white;
+    padding-bottom: 0px;}
+.opacity2{
+	background-color: rgba(0,0,0,0.4);
+	height:auto;
+	color:white;
+    padding-bottom: 50px;}
+.contact .encabezado{
+	text-align: center;
+	margin: 30px 50px 0 50px;}
+.contact .formulario{margin-left: 50px;}
+.contact input{
+	width: 100%;
+	padding: 12px 10px;
+	margin-bottom: 25px;
+	background-color: gray; 
+	opacity: 0.4;
+	border: 0px;}
+.contact textarea{
+	background-color: gray;
+	padding: 12px 10px;
+	opacity:0.4;
+	width: 100%; 
+	border: 0px;}
+.contact #submit{
+	background-color: #1EE1CD;
+	opacity: 1;
+	width: 130px;
+	margin-top: 20px;}
+.contact .about{padding:0 70px;}
+.contact .about span{
+	color:white;
+}
+/*redes */
+.redes .follow{
+	text-align: center;
+	padding: 50px 150px;}
+.redes .follow li{
+    list-style: none;
+    display: inline-block;
+    width: 45px;
+    padding:0 5px;}
+.redes .follow ul span{font-size: 250%;}
+/*footer*/
+.footer{
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding: 40px 0;}
+.footer p{margin-bottom: 0;}
+
+
+
+/*-----------*/
+@media(max-width: 750px){
+   header{height: 100vh;} 
+   .oscuro{
+   	height:100vh;
+   	padding-bottom: 135px;}
+   	header .menu{
+    margin-left: 20px;}
+    header .menu ul li{
+   	margin-top: 0px;
+   	margin-left: 0px;
+   	font-size: 17px;
+   	padding: 0 6px 0 0;}
+   .text-hero{
+	margin-top: 60px;}
+	.text-hero p{
+	margin-top: -20px;}
+    header .text-hero a{
+	padding: 10px;
+	margin-left: 20px;}
+    .contenido .contenido-parrafo{
+    padding: 0px;
+	margin-bottom: 20px;}
+    .descripcion-features .parraf{
+    padding:0 10px 0 35px;
+    margin-bottom: 0px;}
+    .descripcion-features .parrafos{
+    padding:0 10px 0 35px;}
+    .descripcion-features .parraf .imagen{
+	font-size:200%;
+	left: -30px;}
+    .descripcion-features .parrafos .imagen{
+	font-size:200%;
+	left: -30px;}
+    .portfolio .menu2  ul a{
+	padding: 3px;
+    font-size: 13px;}
+    .portfolio .menu2  ul li{
+    padding: 0px;}
+    .portfolio .row img{
+	width: 90%;
+	margin: 15px 15px 0px 15px;}
+	.city, .opacity{
+	height: 400px;}
+	.city p{
+	margin: 80px 10px 20px 10px;}
+	.contenido{
+	margin-bottom: 20px;}
+	.lista hr{
+	width: 200px;}
+	.package{
+    padding-bottom: 30px;}
+    .personaje .figura img{
+	width: 30%;}
+    .personaje .figura{padding:30px 30px 40px 30px;}
+    .contact, .opacity2{
+    height: auto;}
+    .contact .encabezado{
+	margin: 30px 10px 0 10px;}
+	.contact .formulario{margin:0 10px;}
+	.contact .about{padding:0 10px;}
+	.redes .follow{
+	padding: 50px 20px;}
+    .redes .follow li{
+    width: 40px;
+    padding:0 5px;}
+    .redes .follow ul{
+    padding-left: 0px;}
+    .redes .follow ul span{font-size: 200%;}
+
+}
